@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 15px #01eeff, -3px -3px 15px #01eeff; */
+    filter: drop-shadow(5px 5px 20px #01eeff);
+    width: 350px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+h1{
+    text-align: center;
+}
+.user-input{
+    padding: 5px;
+
+
+}
+.user-input input{
+    width: 250px;
+    color: white;
+    box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: black;
+}
+.radio-button{
+    margin:10px ;
+}
+.select{
+    padding: 10px;
+
+}
+.select-box{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    width: 250px;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.signup-button{
+    padding: 10px;
+   
+}
+button{
+    width: 250px;
+    height: 35px;
+    background-color: #01eeff;
+    border-radius: 20px;
+    
+}
+.p{
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+a:hover{
+    color: #01eeff;
+}
+button:hover{
+background-color: white;
+}

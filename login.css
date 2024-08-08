@@ -1,0 +1,82 @@
+body {
+    color: white;
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(./form-images/bg4-2.jpg)
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 100vh;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(193, 145, 56);
+    text-align: center;
+    width: 400px;
+    height: 330px;
+    /* background-color: bisque; */
+    border-radius: 6px;
+}
+
+h1 {
+    color: rgba(215,152,106,255);
+}
+
+.user-input {
+    padding: 10px;
+
+}
+
+.user-input input {
+    width: 290px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.remember-forgot {
+    margin-top: 5px;
+    /* color: white; */
+    color: black;
+}
+
+.remember-forgot label {
+    padding: 0 70px 0 0;
+}
+
+a {
+    color: black;
+    /* color: white; */
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+    width: 290px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: 
+    rgba(215,152,106,255);
+
+}
+p{
+    color: black;
+}
+a:hover{
+ color:azure
+}
+button:hover{
+    background-color:#696772;
+}
